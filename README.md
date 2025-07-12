@@ -13,7 +13,7 @@ The following visuals highlight the model’s ability to accurately identify cra
 > 💡 *Add a GIF cycling through input images, ground truth masks, and model predictions.*
 
 ```markdown
-![Demo]([model_predictions.gif](https://github.com/kkkissiedu/Concrete-Crack-Segmentation-Model/blob/main/model_predictions.gif?raw=true))
+![Demo](main/model_predictions.gif)
 ```
 
 | Input Image | Ground Truth | Model Prediction |
