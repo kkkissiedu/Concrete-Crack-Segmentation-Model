@@ -10,20 +10,11 @@ This project presents a deep learning solution for **semantic segmentation** of 
 
 The following visuals highlight the model’s ability to accurately identify cracks across real-world examples.
 
-> 💡 *Add a GIF cycling through input images, ground truth masks, and model predictions.*
+### GIF
+![GIF](model_predictions.gif)
 
-```markdown
-![Demo](model_predictions.gif)
-```
-
-| Input Image | Ground Truth | Model Prediction |
-|-------------|---------------|------------------|
-| Image 1     | Mask 1        | Prediction 1     |
-| Image 2     | Mask 2        | Prediction 2     |
-| Image 3     | Mask 3        | Prediction 3     |
-
-> 📌 *Replace the placeholders above with actual image samples from your project.*
-
+### Single Image
+![Sample](predictions_visualization_binary.png)
 ---
 
 ## 🚀 Key Features & Technical Highlights
@@ -48,8 +39,6 @@ The following visuals highlight the model’s ability to accurately identify cra
 |------------|--------|
 | Dice Score | 0.93   |
 
-> 📌 *Consider including precision, recall, IoU, or mIoU for a more comprehensive evaluation.*
-
 ---
 
 ## 🧰 Tech Stack
@@ -63,30 +52,6 @@ The following visuals highlight the model’s ability to accurately identify cra
 | Dataset           | Public concrete crack image dataset |
 
 ---
-
-## ⚙️ Installation & Usage
-
-### 🔧 Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-```
-
-### 📦 Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 🖼️ Run Inference on an Image
-
-```bash
-python predict.py --model path/to/model.pth --input path/to/image.jpg --output path/to/save/mask.png
-```
-
----
-
 ## 🏗️ Applications in Structural Engineering
 
 This project directly supports state-of-the-art SHM research and field applications:
@@ -122,7 +87,7 @@ This project directly supports state-of-the-art SHM research and field applicati
 
 - U-Net Paper: [Ronneberger et al. (2015)](https://arxiv.org/abs/1505.04597)  
 - Attention Mechanisms: [Oktay et al. (2018) - Attention U-Net](https://arxiv.org/abs/1804.03999)  
-- Crack Dataset: [Insert dataset link or reference here]
+- Crack Dataset: [(https://universe.roboflow.com/crack-detection-msd4g/crack-semantic-segmentation)]
 
 ---
 
